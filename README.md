@@ -46,11 +46,9 @@ This project is a full-stack e-commerce website built with the MERN stack (Mongo
   - JWT (JSON Web Tokens) for authentication
   - bcrypt.js for password hashing
 
-## 🚀 Installation
+ # 📸 Screenshots
+Home Page
 
-Follow these steps to get the project up and running on your local machine:
+Product Page
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/ecommerce-mern.git
-   cd ecommerce-mern
+Admin Panel
