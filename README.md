@@ -79,8 +79,17 @@ This project is a full-stack e-commerce website built with the MERN stack (Mongo
   ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
  # 📸 Screenshots
-Home Page
+**Home Page**
 
-Product Page
 
-Admin Panel
+![E-commerce Logo](frontend/src/Components/Assets/logo.png)
+
+**Admin Panel**
+
+
+![E-commerce Logo](frontend/src/Components/Assets/logo.png)
+
+**Login Page** 
+
+
+![E-commerce Logo](frontend/src/Components/Assets/logo.png)
