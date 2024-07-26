@@ -2,7 +2,7 @@
 
 Welcome to the E-commerce website built with the MERN stack! This project includes user authentication with JWT, an admin panel for managing products, and a dynamic, responsive user interface.
 
-![E-commerce Logo](path/to/your/logo.png)
+![E-commerce Logo](frontend/src/Components/Assets/logo.png)
 
 ## 📖 Table of Contents
 
