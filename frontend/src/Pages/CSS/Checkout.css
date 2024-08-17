@@ -1,0 +1,115 @@
+/* CSS/Checkout.css */
+
+.checkout {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background : linear-gradient(180deg, rgba(72, 63, 46, 0.788), white 100%); /* Semi-transparent white background */
+    font-family: 'Roboto', sans-serif;
+    position: relative; /* For positioning the background image */
+    overflow: hidden;
+}
+
+
+.checkout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('D:\data\Desktop\project\demo\frontend\src\Components\Assets\checkout.png'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    opacity: 50000; /* Controls the fade effect */
+    z-index: -10; /* Places the image behind the content */
+}
+
+.checkout h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.name-container,
+.location-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.checkout div {
+    margin-bottom: 20px;
+}
+
+.checkout label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 16px;
+}
+
+.checkout input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.checkout input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.payment-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.payment-buttons button {
+    width: 48%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cod-button {
+    background-color: #28a745;
+}
+
+.cod-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.cod-button:active {
+    transform: scale(0.95);
+}
+
+.razorpay-button {
+    background-color: #007bff;
+}
+
+.razorpay-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.razorpay-button:active {
+    transform: scale(0.95);
+}
